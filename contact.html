@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tiana Fairclough — UX Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+  <header>
+
+<nav class="site-nav" role="navigation" aria-label="Primary">
+  <a href="index.html" class="brand" aria-label="Home">Tiana Fairclough</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="myprojects.html">My Projects</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <main>
+    <section class="contact" aria-labelledby="contact-title">
+      <h1 id="contact-title">Say Hi!</h1>
+      <p class="subtitle">I’d love to hear from you.</p>
+
+      <form class="contact-form" action="mailto:fair7324@mylaurier.ca" method="GET" enctype="text/plain" aria-label="Contact form">
+        <div class="row">
+          <label>
+            <span>First Name</span>
+            <input type="text" name="First Name" required />
+          </label>
+          <label>
+            <span>Last Name</span>
+            <input type="text" name="Last Name" required />
+          </label>
+        </div>
+        <label>
+          <span>Email</span>
+          <input type="email" name="Email" required />
+        </label>
+        <label>
+          <span>Subject</span>
+          <input type="text" name="Subject" required />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="Message" rows="6" required></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  </main>
+
+
+<footer class="site-footer" role="contentinfo">
+  <p class="connect">Let’s Connect!</p>
+  <p class="links">
+    <a href="contact.html">Contact ↗</a> |
+    <a href="mailto:fair7324@mylaurier.ca" aria-label="Email Tiana">Email ↗ <span class="email">fair7324@mylaurier.ca</span></a> |
+    <a href="resume.html">Resume ↗</a> |
+    <a href="#" aria-label="LinkedIn profile (add your URL)">LinkedIn ↗</a>
+  </p>
+</footer>
+
+</body>
+</html>
